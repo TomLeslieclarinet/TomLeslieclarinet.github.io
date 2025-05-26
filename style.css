@@ -69,12 +69,12 @@ header
 .text
 {
 	font-family: "Brush Script MT";
-    top: 50%;
+    top: 40%;
     text-align: center;
     z-index: 10;
     color: whitesmoke;
     position: absolute;
-    font-size: 120%;
+    font-size: 6vw;
     width: 100%;
     text-decoration: none;
     transform: translateX(-50%);
@@ -89,14 +89,14 @@ header
     border-radius: 25px;
     background: #014706;
     position: absolute;
-    top: 65%;
+    top: 85%;
     left: 50%;
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 .about{
-    padding-right: 14%;
-    padding-left: 14%;
+    padding-right: 8%;
+    padding-left: 8%;
     padding-bottom: 8%;
     padding-top: 5%;
 	display:flex;
@@ -105,11 +105,11 @@ header
 	color:whitesmoke;
     background-image: linear-gradient(#2d1b0700, #2d1b07bd, #2d1b07bd, #2d1b07bd, #2d1b07bd, #2d1b07bd);
 }
-.about img{
+.about >p>img{
 	width: 50%;
-	height: 50%;
 	align-items: center;
 	padding-top:inherit;
+	float:right;
 }
 .Services{
 	background-color:#094d30;
