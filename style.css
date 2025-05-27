@@ -1,4 +1,5 @@
 *{
+	font-family: "Cantata One";
 	box-sizing:border-box;
 	margin:0;
 	padding:0;
@@ -6,17 +7,17 @@
 a{
 	text-decoration:none;
 }
+h2{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
 .showcase{
-  //*position: absolute;*/
-  /*right: 0;*/
   width: 100%;
-  /*max-height: 100vh;*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   transition: 0.5s;
-  /*z-index: 2;*/
 }
 .showcase > video{
 	position: fixed;
@@ -47,12 +48,8 @@ header .logo > img{
 }
 header
 {
-  /*position: relative;
-  top: 0;
-  left: 0;*/
   width: 100%;
   padding: 2% 5%;
-  /*z-index: 1000;*/
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -68,13 +65,13 @@ header
 }
 .text
 {
-	font-family: "Brush Script MT";
-    top: 40%;
+	font-family: "Mea Culpa";
+    top: 35%;
     text-align: center;
     z-index: 10;
     color: whitesmoke;
     position: absolute;
-    font-size: 6vw;
+    font-size: 5vw;
     width: 100%;
     text-decoration: none;
     transform: translateX(-50%);
@@ -99,62 +96,58 @@ header
     padding-left: 8%;
     padding-bottom: 8%;
     padding-top: 5%;
-	display:flex;
-	flex-direction:row;
 	justify-content: center;
 	color:whitesmoke;
     background-image: linear-gradient(#2d1b0700, #2d1b07bd, #2d1b07bd, #2d1b07bd, #2d1b07bd, #2d1b07bd);
 }
-.about >p>img{
+.about > p > img{
 	width: 50%;
 	align-items: center;
 	padding-top:inherit;
 	float:right;
+	margin:1%;
 }
 .Services{
 	background-color:#094d30;
 	width:100%;
-	padding-right: 14%;
-    padding-left: 14%;
+	padding-right: 8%;
+    padding-left: 8%;
     padding-bottom: 8%;
     padding-top: 5%;
 	color:whitesmoke;
 }
 .FAQ{
-	padding-right: 14%;
-    padding-left: 14%;
+	padding-right: 8%;
+    padding-left: 8%;
     padding-bottom: 8%;
     padding-top: 5%;
-	display:flex;
-	flex-direction:column;
 	justify-content: center;
 	width:100%;
 	background-color:#01350970;
 }
 details > summary {
 	padding: 10px;
-    width: 50%;
-	margin:4px;
+    width: 75%;
+	margin:3px;
+	padding-left:5%;
     background-color: #10751c;
     border: none;
     box-shadow: inset 0px 0px 20px 0px #14431a;
     cursor: pointer;
     color: whitesmoke;
-    border-radius: 69px;
+    border-radius: 44px;
 }
 
 details > p{
   background-color: #eeeeee;
-  padding: 10px;
-  margin: 0;
+  padding: 2% 10%;
   box-shadow: 1px 1px 2px #bbbbbb;
-  border-radius: 69px;
+  border-radius: 44px;
   color:#001c06;
-      padding-left: 20px;
 }
 .Repertoire{
-    padding-right: 14%;
-    padding-left: 14%;
+    padding-right: 8%;
+    padding-left: 8%;
     padding-bottom: 8%;
     padding-top: 5%;
 	display:flex;
@@ -177,8 +170,8 @@ details > p{
 	padding-bottom:20px;
 }
 .Enquire{
-    padding-right: 14%;
-    padding-left: 14%;
+    padding-right: 8%;
+    padding-left: 8%;
     padding-bottom: 8%;
     padding-top: 5%;
 	display:flex;
@@ -215,6 +208,38 @@ width:100%;
   padding:15px 20px;
   border-radius:25px;
     background:#014706;
-
+}
+div.polaroid {
+  width: 35%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 3%;
+  padding:1%;
+  
 }
 
+div.container {
+	color:black;
+  text-align: center;
+  padding: 10px 20px;
+}
+footer{
+	text-align:center;
+	background-color:gray;
+	color:whitesmoke;
+}
+
+/*
+
+<picture>
+   <source 
+      media="(orientation: landscape)"
+      srcset="testlandscape.png">
+   <source 
+      media="(orientation: portrait)"
+      srcset="testportrait.png">
+      
+ <img src="testlandscape.png" width="100%" height="auto">
+</picture>
+
+*/
