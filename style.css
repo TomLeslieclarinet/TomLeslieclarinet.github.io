@@ -1,5 +1,5 @@
 *{
-	font-family: "Cantata One";
+	font-family: 'Alegreya';
 	box-sizing:border-box;
 	margin:0;
 	padding:0;
@@ -19,7 +19,7 @@ h2{
   align-items: center;
   transition: 0.5s;
 }
-.showcase > video{
+.backgroundVideo{
 	position: fixed;
 	top:0;
 	left:0;
@@ -59,13 +59,13 @@ header
   color:whitesmoke;
   padding:10px 10px;
   border-radius:25px;
-    background:#014706;
+    background:#3b5726;
 	text-decoration:none;
 	font-size:100%;
 }
 .text
 {
-	font-family: "Mea Culpa";
+	font-family: "Libre Baskerville";
     top: 35%;
     text-align: center;
     z-index: 10;
@@ -84,7 +84,7 @@ header
     border: none;
     padding: 15px 20px;
     border-radius: 25px;
-    background: #014706;
+    background: #3b5726;
     position: absolute;
     top: 85%;
     left: 50%;
@@ -97,8 +97,8 @@ header
     padding-bottom: 8%;
     padding-top: 5%;
 	justify-content: center;
-	color:whitesmoke;
-    background-image: linear-gradient(#2d1b0700, #2d1b07bd, #2d1b07bd, #2d1b07bd, #2d1b07bd, #2d1b07bd);
+	color:#3b5726;
+    background-image:linear-gradient(#e3d3bb00, #E3D3BB, #E3D3BB, #E3D3BB, #E3D3BB, #E3D3BB);
 }
 .about > p > img{
 	width: 50%;
@@ -108,7 +108,7 @@ header
 	margin:1%;
 }
 .Services{
-	background-color:#094d30;
+	background-color:#3B5726;
 	width:100%;
 	padding-right: 8%;
     padding-left: 8%;
@@ -123,14 +123,14 @@ header
     padding-top: 5%;
 	justify-content: center;
 	width:100%;
-	background-color:#01350970;
+	background-color:#3b572678;
 }
 details > summary {
 	padding: 10px;
     width: 75%;
 	margin:3px;
 	padding-left:5%;
-    background-color: #10751c;
+    background-color: #3B5726;
     border: none;
     box-shadow: inset 0px 0px 20px 0px #14431a;
     cursor: pointer;
@@ -143,7 +143,7 @@ details > p{
   padding: 2% 10%;
   box-shadow: 1px 1px 2px #bbbbbb;
   border-radius: 44px;
-  color:#001c06;
+  color:#3b5726;
 }
 .Repertoire{
     padding-right: 8%;
@@ -154,7 +154,7 @@ details > p{
 	flex-direction:row;
 	justify-content: center;
 	color:whitesmoke;
-	background-color:#3f250785;
+	background-color:#e3d3bbb0;
 }
 .videos{
 	display:flex;
@@ -172,14 +172,13 @@ details > p{
 .Enquire{
     padding-right: 8%;
     padding-left: 8%;
-    padding-bottom: 8%;
     padding-top: 5%;
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
 	color:whitesmoke;
-	background-color:#0452239c;
-  font:18px 'Open Sans',sans-serif;
+	background-color:#3b5726c9;
+  font-size:18px;
   width:100%;
 }
 .label{
@@ -196,7 +195,7 @@ details > p{
   padding:15px 20px;
   border-radius:25px;
   background:rgb(255 255 255 / 69%);
-  color:#045223;
+  color:#3B5726;
   font-weight:bold;
 }
 .submit{
@@ -207,7 +206,7 @@ width:100%;
   border:none;
   padding:15px 20px;
   border-radius:25px;
-    background:#014706;
+    background:#3B5726;
 }
 div.polaroid {
   width: 35%;
@@ -219,7 +218,7 @@ div.polaroid {
 }
 
 div.container {
-	color:black;
+	color:#3B5726;
   text-align: center;
   padding: 10px 20px;
 }
