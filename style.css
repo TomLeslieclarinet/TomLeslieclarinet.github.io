@@ -43,7 +43,7 @@ header .logo > img{
 	cursor:pointer;
 	width:100%;
 	min-width:50px;
-	max-width:100px;
+	max-width:220px;
 	height:100%;
 }
 header
@@ -66,7 +66,7 @@ header
 .text
 {
 	font-family: "Libre Baskerville";
-    top: 35%;
+    top: 30%;
     text-align: center;
     z-index: 10;
     color: whitesmoke;
@@ -152,7 +152,7 @@ details > p{
     padding-top: 5%;
 	display:flex;
 	flex-direction:row;
-	justify-content: center;
+	justify-content:space-evenly;
 	color:whitesmoke;
 	background-color:#e3d3bbb0;
 }
@@ -178,35 +178,39 @@ details > p{
 	justify-content: center;
 	color:whitesmoke;
 	background-color:#3b5726c9;
-  font-size:18px;
-  width:100%;
+	font-size:18px;
+	width:100%;
 }
 .label{
-	  text-transform:uppercase;
+	text-transform:uppercase;
 	width:100%;
-  color:whitesmoke;
-  display:block;
-  font-size:20px;
+	color:whitesmoke;
+	display:block;
+	font-size:20px;
 }
 .input{
 	width:100%;
-  display:block;
+	display:block;
 	border:none;
-  padding:15px 20px;
-  border-radius:25px;
-  background:rgb(255 255 255 / 69%);
-  color:#3B5726;
-  font-weight:bold;
+	padding:15px 20px;
+	border-radius:25px;
+	background: #e3d3bbad;
+	color: #3B5726;
+	font-size: larger;
+	font-weight: bold;
 }
 .submit{
-	  text-transform:uppercase;
-width:100%;
-  color:whitesmoke;
-  display:block;
-  border:none;
-  padding:15px 20px;
-  border-radius:25px;
-    background:#3B5726;
+	text-transform:uppercase;
+	width:100%;
+	color:#3B5726;
+	display:block;
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:#E3D3BB;
+	font-size: larger;
+    font-weight: bold;
+	border:10xp;
 }
 div.polaroid {
   width: 35%;
@@ -219,8 +223,8 @@ div.polaroid {
 
 div.container {
 	color:#3B5726;
-  text-align: center;
-  padding: 10px 20px;
+	text-align: center;
+	padding: 10px 20px;
 }
 footer{
 	text-align:center;
